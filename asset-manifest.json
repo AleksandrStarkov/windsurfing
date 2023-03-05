@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/windsurfing/static/css/main.38202101.css",
-    "main.js": "/windsurfing/static/js/main.8eee57e2.js",
+    "main.js": "/windsurfing/static/js/main.682947d8.js",
     "static/js/787.28cb0dcd.chunk.js": "/windsurfing/static/js/787.28cb0dcd.chunk.js",
     "static/media/dreamstime_xl_4766202.png": "/windsurfing/static/media/dreamstime_xl_4766202.40c25b0974b8d909a75e.png",
     "static/media/1.svg": "/windsurfing/static/media/1.55192cbe4250b3f6fdde24891b0ee0c4.svg",
@@ -17,11 +17,11 @@
     "index.html": "/windsurfing/index.html",
     "static/media/getFetch.cjs": "/windsurfing/static/media/getFetch.40f37ddea2378391108f.cjs",
     "main.38202101.css.map": "/windsurfing/static/css/main.38202101.css.map",
-    "main.8eee57e2.js.map": "/windsurfing/static/js/main.8eee57e2.js.map",
+    "main.682947d8.js.map": "/windsurfing/static/js/main.682947d8.js.map",
     "787.28cb0dcd.chunk.js.map": "/windsurfing/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.38202101.css",
-    "static/js/main.8eee57e2.js"
+    "static/js/main.682947d8.js"
   ]
 }
