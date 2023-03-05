@@ -1,7 +1,5 @@
 import React from 'react';
 import i18n from '../../i18';
-import english from '../../assets/icons/1.svg';
-import ukrainian from '../../assets/icons/1.svg';
 import LanguageIcon from '@mui/icons-material/Language';
 import { Button, Menu, MenuItem, Typography } from '@mui/material';
 
