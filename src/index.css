@@ -14,3 +14,8 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.css-1dlobg9-MuiButtonBase-root-MuiButton-root:hover {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  background-color: #4a5d72;
+}

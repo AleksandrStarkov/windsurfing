@@ -1,0 +1,40 @@
+{
+  "registration": {
+    "authorization": "Authorization",
+    "login": "Login:",
+    "password": "Password",
+    "enter": "Ok",
+    "error": "Username or password entered incorrectly."
+  },
+
+  "navbar": {
+    "home": "Home",
+    "about": "About",
+    "training": "Training",
+    "store": "Store",
+    "post": "Post",
+    "news": "News",
+    "profile": "Profile",
+    "logIn": "Login",
+    "logOut": "Logout",
+    "aloha": " ALOHA!"
+  },
+
+  "home": {
+    "title": "Welcome to Windsurfing Portal",
+    "title1": "Discover a place where you'll love to live.",
+    "title2": "ALOHA! We are glad to welcome you on the site of Kiev windsurfing club 'Windsurfing'!",
+    "title3": "'Windsurfing' - is the best place to take your first steps in windsurfing.",
+    "title4": "SURF STORE! We offer you boards and sails from the best manufacturers Tabou, RRD, Fanatic, Starboard, JP, F2, Gaastra, Severne, North Sails, Neil Pride",
+    "title5": "We are glad to welcome you on the site of Kiev windsurfing club 'Windsurf'!",
+    "title6": "Windsurfing is one of the few sports that combines recreation on the water and extreme sports. It is perfect for people of any age group, sex and any level of fitness. Everyone can discover a new and exciting leisure after the first lesson of windsurfing. Kiev club 'Windsurf' has a long history. Every year new people join us to learn how to operate a sailing board or just enjoy riding. Our experienced instructors will help you to learn all the details of windsurfing and help you to choose the right equipment depending on your level and skills. Two bases in Kiev and Kiev region have a wide range of boards and sails, wetsuits, rescue boats, recreation areas and, of course, a wonderful team of like-minded people. Join us!",
+    "title7": "Windsurfing club provides services: windsurfing equipment rental sailboarding instruction windsurfing equipment sales storage of personal windsurfing equipment equipment repair We will be glad to see you in Kiev windsurfing club Windsurf!",
+    "title9": "I am a FrontEnd Stack developer. I can create interesting and useful applications for people and make their lives easier and happier."
+  },
+
+  "news": {
+    "loadMore": "Load more",
+    "delete": "Delete",
+    "confirm": "Are you sure?"
+  }
+}
