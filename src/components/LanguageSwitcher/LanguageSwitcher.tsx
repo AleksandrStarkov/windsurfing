@@ -46,7 +46,6 @@ const LanguageSwitcher: React.FC = () => {
             type="button"
             onClick={() => changeLanguage('en')}
           >
-            <img src={english} alt="UK flag" width="30" height="20" />
             <Typography
               variant="body2"
               sx={{
@@ -61,7 +60,6 @@ const LanguageSwitcher: React.FC = () => {
         </MenuItem>
         <MenuItem onClick={handleClose}>
           <Button type="button" onClick={() => changeLanguage('ua')}>
-            <img src={ukrainian} alt=" UA flag" width="30" height="20" />
             <Typography
               variant="body2"
               sx={{
