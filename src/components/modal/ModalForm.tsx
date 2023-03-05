@@ -2,13 +2,9 @@ import * as React from 'react';
 import Backdrop from '@mui/material/Backdrop';
 import Box from '@mui/material/Box';
 import Modal from '@mui/material/Modal';
-import Button from '@mui/material/Button';
 
 import { useSpring, animated } from '@react-spring/web';
 import SignIn from '../Form/SignIn';
-import { logoutUser } from '../../redux/auth/authSlice';
-import { useDispatch } from 'react-redux';
-import { useTranslation } from 'react-i18next';
 
 interface FadeProps {
   children: React.ReactElement;
@@ -23,8 +19,6 @@ interface AuthProps {
   checkAuth(data: boolean): void;
   isOpen: boolean;
   closeModal(data: boolean): void;
-  // checkAuth(data: boolean): void;
-  // closeModal(data: boolean): void;
 }
 
 const Fade = React.forwardRef<HTMLDivElement, FadeProps>(function Fade(
@@ -84,13 +78,6 @@ const style = {
 };
 
 export default function ModalForm(props: AuthProps) {
-  // const [open, setOpen] = React.useState(false);
-  // const handleOpen = () => setOpen(true);
-  // const handleClose = () => setOpen(false);
-
-  const { t } = useTranslation();
-  //  const classes = useStyles();
-
   if (!props.isOpen) {
     return null;
   }
