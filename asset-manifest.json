@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/windsurfing/static/css/main.38202101.css",
+    "main.js": "/windsurfing/static/js/main.8eee57e2.js",
+    "static/js/787.28cb0dcd.chunk.js": "/windsurfing/static/js/787.28cb0dcd.chunk.js",
+    "static/media/dreamstime_xl_4766202.png": "/windsurfing/static/media/dreamstime_xl_4766202.40c25b0974b8d909a75e.png",
+    "static/media/1.svg": "/windsurfing/static/media/1.55192cbe4250b3f6fdde24891b0ee0c4.svg",
+    "static/media/Wind.png": "/windsurfing/static/media/Wind.2a9915fdf47097ca6288.png",
+    "static/media/18.jpeg": "/windsurfing/static/media/18.49897501d72502c961e3.jpeg",
+    "static/media/myphoto.jpeg": "/windsurfing/static/media/myphoto.73f31013778d7b60a077.jpeg",
+    "static/media/12.jpeg": "/windsurfing/static/media/12.4a25965c4d63ed0dfe50.jpeg",
+    "static/media/13.jpeg": "/windsurfing/static/media/13.8d13f00266b053612f1e.jpeg",
+    "static/media/16.jpeg": "/windsurfing/static/media/16.7f61d3074763da3cef9a.jpeg",
+    "static/media/20.jpeg": "/windsurfing/static/media/20.4907092839108c44ba83.jpeg",
+    "static/media/15.jpeg": "/windsurfing/static/media/15.d142f9d4ccb916432ca1.jpeg",
+    "static/media/14.jpeg": "/windsurfing/static/media/14.dc5b24b8d84481c0721f.jpeg",
+    "index.html": "/windsurfing/index.html",
+    "static/media/getFetch.cjs": "/windsurfing/static/media/getFetch.40f37ddea2378391108f.cjs",
+    "main.38202101.css.map": "/windsurfing/static/css/main.38202101.css.map",
+    "main.8eee57e2.js.map": "/windsurfing/static/js/main.8eee57e2.js.map",
+    "787.28cb0dcd.chunk.js.map": "/windsurfing/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.38202101.css",
+    "static/js/main.8eee57e2.js"
+  ]
+}
