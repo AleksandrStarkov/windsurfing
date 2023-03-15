@@ -10,7 +10,7 @@ i18n
   .init({
     debug: false,
     lng: 'en',
-    backend: { loadPath: 'locales/{{lng}}/{{ns}}.json' },
+    backend: { loadPath: '/windsurfing/locales/{{lng}}/{{ns}}.json' },
     interpolation: {
       escapeValue: false,
     },

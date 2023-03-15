@@ -53,7 +53,7 @@ const SignIn: React.FC<AuthProps> = props => {
   if (loggedIn) {
     return <Navigate to="/profile" />;
   }
-  console.log(loggedIn);
+
   const reset = () => {
     setLogin('');
     setPassword('');
