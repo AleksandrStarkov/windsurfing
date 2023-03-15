@@ -44,6 +44,7 @@ const Hero = () => {
               padding: '2px',
               width: '500px',
               height: '500px',
+              boxShadow: '0 0 15px rgb(191, 2, 248)',
             }}
           >
             <Typography
@@ -52,6 +53,7 @@ const Hero = () => {
                 fontSize: '18px',
                 color: '#0f0494',
                 fontWeight: '500',
+
                 // mt: 10,
                 // mb: 4,
               }}

@@ -74,6 +74,7 @@ const Post = () => {
                 padding: '2px',
                 backdropFilter: 'blur(20px)',
                 width: '500px',
+                boxShadow: '0 0 15px rgb(191, 2, 248)',
               }}
             >
               <Title variant="h2">{t('home.title2')}</Title>
@@ -88,6 +89,7 @@ const Post = () => {
                   marginBottom: '2rem',
                   borderRadius: '20px',
                   width: '330px',
+                  boxShadow: '0 0 15px rgb(191, 2, 248)',
                 }}
               />
             </Box>
@@ -115,6 +117,7 @@ const Post = () => {
                   marginBottom: '2rem',
                   borderRadius: '20px',
                   width: '330px',
+                  boxShadow: '0 0 15px rgb(191, 2, 248)',
                 }}
               />
             </Box>
@@ -131,6 +134,7 @@ const Post = () => {
                 backdropFilter: 'blur(20px)',
                 width: '500px',
                 height: '250px',
+                boxShadow: '0 0 15px rgb(191, 2, 248)',
               }}
             >
               <Title variant="h1">{t('home.title3')}</Title>
@@ -164,6 +168,7 @@ const Post = () => {
                 backdropFilter: 'blur(20px)',
                 width: '500px',
                 height: '300px',
+                boxShadow: '0 0 15px rgb(191, 2, 248)',
               }}
             >
               <Title variant="h1">{t('home.title4')}</Title>
@@ -179,6 +184,7 @@ const Post = () => {
                   borderRadius: '20px',
                   width: '300px',
                   height: '500px',
+                  boxShadow: '0 0 15px rgb(191, 2, 248)',
                 }}
               />
             </Box>
