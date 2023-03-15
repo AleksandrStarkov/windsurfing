@@ -14,7 +14,7 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <Provider store={store}>
-    <BrowserRouter basename="windsurfing">
+    <BrowserRouter>
       <Suspense fallback={<CircularProgress />}>
         <App />
       </Suspense>
