@@ -3,6 +3,7 @@ import ImageList from '@mui/material/ImageList';
 import ImageListItem from '@mui/material/ImageListItem';
 import { Box } from '@mui/material';
 import axios from 'axios';
+import BackImg from '../../assets/icons/14.jpeg';
 
 interface PixabayImage {
   id: number;
@@ -39,11 +40,11 @@ const WovenImageList = () => {
   return (
     <Box
       sx={{
-        // backgroundImage: `url(${BackImg})`,
-        // backgroundRepeat: 'no-repeat',
-        // backgroundAttachment: 'fixed',
-        // backgroundPosition: 'center',
-        // backgroundSize: 'cover',
+        backgroundImage: `url(${BackImg})`,
+        backgroundRepeat: 'no-repeat',
+        backgroundAttachment: 'fixed',
+        backgroundPosition: 'center',
+        backgroundSize: 'cover',
         height: '100vh',
         width: '100%',
         minHeight: '80vh',
@@ -56,7 +57,15 @@ const WovenImageList = () => {
         gap={8}
       >
         {images.map(item => (
-          <ImageListItem key={item.id}>
+          <ImageListItem
+            key={item.id}
+            style={{
+              border: '2px solid rgba(14, 1, 1, 0.5)',
+              borderRadius: '5px',
+              background: '#df00f8ec',
+              boxShadow: '0 0 15px rgb(191, 2, 248)',
+            }}
+          >
             <img
               src={`${item.webformatURL}?w=161&fit=crop&auto=format`}
               srcSet={`${item.webformatURL}?w=161&fit=crop&auto=format&dpr=2 2x`}
