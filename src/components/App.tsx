@@ -36,22 +36,6 @@ const App: React.FC = () => {
       setIsAuth(true);
     }
   }, []);
-  // const [mode, setMode] = useState('light');
-  // const darkTheme = createTheme({
-  //   palette: {
-  //     mode: mode,
-  //   },
-  // });
-  // const [mode, setMode] = React.useState<'light' | 'dark'>('light');
-  // const colorMode = React.useMemo(
-  //   () => ({
-  //     // The dark mode switch would invoke this method
-  //     toggleColorMode: () => {
-  //       setMode(prevMode => (prevMode === 'light' ? 'dark' : 'light'));
-  //     },
-  //   }),
-  //   [],
-  // );
 
   return (
     <ThemeProvider theme={darkTheme}>
@@ -74,3 +58,20 @@ const App: React.FC = () => {
 };
 
 export default App;
+
+// const [mode, setMode] = useState('light');
+// const darkTheme = createTheme({
+//   palette: {
+//     mode: mode,
+//   },
+// });
+// const [mode, setMode] = React.useState<'light' | 'dark'>('light');
+// const colorMode = React.useMemo(
+//   () => ({
+//     // The dark mode switch would invoke this method
+//     toggleColorMode: () => {
+//       setMode(prevMode => (prevMode === 'light' ? 'dark' : 'light'));
+//     },
+//   }),
+//   [],
+// );
