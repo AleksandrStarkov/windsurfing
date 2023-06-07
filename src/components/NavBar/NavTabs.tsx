@@ -18,6 +18,7 @@ interface AuthProps {
 
 function LinkTab(props: LinkTabProps) {
   const navigate = useNavigate();
+
   const location = useLocation();
 
   const handleClick = (
