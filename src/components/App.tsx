@@ -1,6 +1,6 @@
-import { createTheme, ThemeProvider } from '@mui/material';
+// import { createTheme, ThemeProvider } from '@mui/material';
 import { Routes, Route, Navigate } from 'react-router-dom';
-import CssBaseline from '@mui/material/CssBaseline';
+// import CssBaseline from '@mui/material/CssBaseline';
 import * as React from 'react';
 
 import Hero from './test/Hero';
@@ -11,16 +11,14 @@ import Store from './test/Store';
 import Post from './test/Post';
 import News from './test/News';
 import { useState } from 'react';
-
 import NavBar from './NavBar/NavBar';
-
 import Profile from './test/Profile';
 
-const darkTheme = createTheme({
-  palette: {
-    mode: 'light',
-  },
-});
+// const darkTheme = createTheme({
+//   palette: {
+//     mode: 'light',
+//   },
+// });
 
 const App: React.FC = () => {
   const [isAuth, setIsAuth] = useState<boolean>(false);
@@ -38,8 +36,9 @@ const App: React.FC = () => {
   }, []);
 
   return (
-    <ThemeProvider theme={darkTheme}>
-      <CssBaseline />
+    <>
+      {/* <ThemeProvider theme={darkTheme}> */}
+      {/* <CssBaseline /> */}
       <NavBar isAuth={isAuth} checkAuth={checkAuth} />
       <Routes>
         <Route path="/" element={<Hero />} />
@@ -53,7 +52,8 @@ const App: React.FC = () => {
 
         <Route path="*" element={<Navigate to="/" />} />
       </Routes>
-    </ThemeProvider>
+      {/* </ThemeProvider> */}
+    </>
   );
 };
 

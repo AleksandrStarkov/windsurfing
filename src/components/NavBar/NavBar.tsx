@@ -18,7 +18,7 @@ import ModalForm from '../modal/ModalForm';
 import { useDispatch } from 'react-redux';
 import { useTranslation } from 'react-i18next';
 import { logoutUser } from '../../redux/auth/authSlice';
-import { NavLink, Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import LanguageSwitcher from '../LanguageSwitcher/LanguageSwitcher';
 
 interface AuthProps {
@@ -95,7 +95,7 @@ function NavBar(props: AuthProps) {
               </Button>
             )}
             <Box style={{ display: 'flex', alignItems: 'center' }}>
-              <NavLink
+              <Link
                 to="profile"
                 style={{
                   display: 'flex',
@@ -123,7 +123,7 @@ function NavBar(props: AuthProps) {
                 >
                   {t('navbar.profile')}
                 </Typography>
-              </NavLink>
+              </Link>
             </Box>
           </Stack>
         </Toolbar>
