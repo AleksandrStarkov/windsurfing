@@ -3,7 +3,7 @@ import Box from '@mui/material/Box';
 import Tabs from '@mui/material/Tabs';
 import Tab from '@mui/material/Tab';
 
-import { useNavigate, Link, useLocation } from 'react-router-dom';
+import { useNavigate, Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 
 interface LinkTabProps {
@@ -19,7 +19,7 @@ interface AuthProps {
 function LinkTab(props: LinkTabProps) {
   const navigate = useNavigate();
 
-  const location = useLocation();
+  // const location = useLocation();
 
   const handleClick = (
     event: React.MouseEvent<HTMLAnchorElement, MouseEvent>,
@@ -35,7 +35,7 @@ function LinkTab(props: LinkTabProps) {
       to={props.href || ''}
       onClick={handleClick}
       value={props.href || ''}
-      aria-selected={location.pathname === (props.href || '')}
+      // aria-selected={location.pathname === (props.href || '')}
       {...props}
     />
   );
