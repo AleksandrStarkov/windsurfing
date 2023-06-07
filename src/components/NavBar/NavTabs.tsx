@@ -2,7 +2,8 @@ import * as React from 'react';
 import Box from '@mui/material/Box';
 import Tabs from '@mui/material/Tabs';
 import Tab from '@mui/material/Tab';
-import { useNavigate } from 'react-router-dom';
+
+import { useNavigate, NavLink } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 
 interface LinkTabProps {
@@ -26,7 +27,14 @@ function LinkTab(props: LinkTabProps) {
       navigate(props.href);
     }
   };
-  return <Tab component="a" onClick={handleClick} {...props} />;
+  return (
+    <Tab
+      component={NavLink}
+      to={props.href || ''}
+      onClick={handleClick}
+      {...props}
+    />
+  );
 }
 
 export default function NavTabs(props: AuthProps) {

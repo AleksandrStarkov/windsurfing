@@ -3,7 +3,7 @@ import {
   AppBar,
   Toolbar,
   Stack,
-  Link,
+  // Link,
   Box,
   Button,
   Typography,
@@ -18,7 +18,7 @@ import ModalForm from '../modal/ModalForm';
 import { useDispatch } from 'react-redux';
 import { useTranslation } from 'react-i18next';
 import { logoutUser } from '../../redux/auth/authSlice';
-import { NavLink } from 'react-router-dom';
+import { NavLink, Link } from 'react-router-dom';
 import LanguageSwitcher from '../LanguageSwitcher/LanguageSwitcher';
 
 interface AuthProps {
@@ -72,8 +72,8 @@ function NavBar(props: AuthProps) {
           }}
         >
           <Link
-            href="/"
-            underline="none"
+            to="/"
+            // underline="none"
             style={{ display: 'flex', flexDirection: 'row' }}
           >
             <ImgClose src={wind} alt="" />
